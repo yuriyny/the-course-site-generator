@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the Desktop Java Framework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_TITLE"	    value="Новий веб сайт"></property>
+        <property name="APP_LOGO"	    value="TAManagerLogo.png"></property>
+        <property name="APP_PATH_CSS"	    value="style/"></property>
+        <property name="APP_CSS"	    value="tam_style.css"></property>
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON"	    value="New.png"></property>
+        <property name="LOAD_ICON"	    value="Load.png"></property>
+        <property name="SAVE_ICON"	    value="Save.png"></property>
+        <property name="DELETE_ICON"	    value="Delete.png"></property>
+
+        <property name="SAVE_AS_ICON"	    value="SaveAs.png"></property>
+        <property name="EXPORT_ICON"	    value="Export.png">	</property>
+	
+
+        <property name="EXIT_ICON"          value="Exit.png"></property> 
+        <property name="UNDO_ICON"          value="Undo.png"></property> 
+        <property name="REDO_ICON"          value="Redo.png"></property> 
+        <property name="ABOUT_ICON"          value="About.png"></property> 
+
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_TOOLTIP"		value="Створити новий сайт"></property>
+        <property name="LOAD_TOOLTIP"		value="Завантажити існуючий сайт"></property>
+        <property name="SAVE_TOOLTIP"		value="Зберегти сайт"></property>
+        <property name="SAVE_AS_TOOLTIP"	value="Зберегти новий сайт"></property>
+        <property name="EXPORT_TOOLTIP"	value="Експортувати сторінку"></property>
+
+
+        <property name="EXIT_TOOLTIP"		value="Вийти з програми"></property>
+        <property name="UNDO_TOOLTIP"		value="Відмінити останню дію"></property>
+
+        <property name="REDO_TOOLTIP"		value="Відтворити останню дію"></property>
+
+        <property name="ABOUT_TOOLTIP"		value="Про програму"></property>
+        <property name="DELETE_TOOLTIP"	value="Cteptu"></property>
+
+        
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT"              value="Закрити"></property>
+
+        <property name="NEW_ERROR_MESSAGE"              value="Відбулася помилка при створенні нового сайту."></property>
+        <property name="NEW_ERROR_TITLE"		value="Помилка нової сторінки"></property>
+        <property name="LOAD_ERROR_MESSAGE"             value="Відбулася помилка при завантаженні сторінки."></property>
+        <property name="LOAD_ERROR_TITLE"		value="Помилка при завантаженні"></property>
+        <property name="SAVE_ERROR_MESSAGE"             value="Помилка при зберіганні."></property>
+        <property name="SAVE_ERROR_TITLE"		value="Помилка при зберіганні"></property>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE"	value="Помилка при завантаженні файлу."></property>	
+        <property name="PROPERTIES_LOAD_ERROR_TITLE"	value="Properties File помилка"></property>
+	
+        <!-- VERIFICATION MESSAGES -->
+	
+        <property name="NEW_COMPLETED_MESSAGE"		value="Новий сайт готовий до змін"></property>
+        <property name="NEW_COMPLETED_TITLE"		value="Створено новий  сайт"></property>
+        <property name="LOAD_COMPLETED_MESSAGE"		value="Файл завантажено і готовий до редагування"></property>
+        <property name="LOAD_COMPLETED_TITLE"		value="Завантаження завершено"></property>
+        <property name="SAVE_COMPLETED_MESSAGE"		value="Збереження завершено"></property>
+        <property name="SAVE_COMPLETED_TITLE"		value="Збережено"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Хочете зберегти незбережену роботу спрочатку?"></property>
+        <property name="SAVE_UNSAVED_WORK_TITLE"	value="Зберегти незбережену роботу спрочатку??"></property>
+	
+        <property name="NEW_CREATED_MESSAGE"		value="Нову роботу створено але не збережено"></property>
+        <property name="WORK_LOADED_MESSAGE"		value="Нова робота звантажена"></property>
+        <property name="WORK_SAVED_MESSAGE"		value="Робота збережена"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"	value="Хочете зберегти незбережену роботу спрочатку?"></property>
+        <property name="SAVE_WORK_TITLE"		value="Хочете зберегти незбережену роботу спрочатку?"></property>
+        <property name="LOAD_WORK_TITLE"		value="Виберіть папку"></property>
+        <property name="WORK_FILE_EXT"			value="json"></property>
+        <property name="WORK_FILE_EXT_DESC"		value="TA Office Hours"></property>
+
+        <!-- WORKSPACE CONTROLS STUFF -->        
+        <property name="TAS_HEADER_TEXT"                value="Асистент"></property>
+
+        <property name="START_LABEL_TEXT"                value="Початок"></property>
+
+        <property name="END_LABEL_TEXT"                
+                  value="Кінець">
+        </property>
+
+        <property name="UNDERGRAD_COLUMN_TEXT"               value="Студент"></property>
+
+
+        <property name="NAME_COLUMN_TEXT"               value="Ім'я"></property>
+        <property name="EMAIL_COLUMN_TEXT"              value="Пошта"></property>
+        <property name="NAME_PROMPT_TEXT"               value="Ім'я"></property>
+        <property name="EMAIL_PROMPT_TEXT"              value="Пошта"></property>
+        <property name="ADD_BUTTON_TEXT"                value="Додати помічника"></property>
+        <property name="CLEAR_BUTTON_TEXT"                value="Стерти"></property>
+        <property name="UPDATE_BUTTON_TEXT"                value="Оновити"></property>
+        <property name="OK_BUTTON_TEXT"               
+                  value="OK">
+        </property>
+        <property name="ERROR_TEXT1"               
+                  value="Неправильний час">
+        </property>
+        <property name="ERROR_TEXT2"               
+                  value="Перевірте час">
+        </property>
+        <property name="ERROR_TEXT3"               
+                  value="Початковий час має бути перед кінцевим">
+        </property>
+        <property name="ERROR2_TEXT1"               
+                  value="Помилка пошти">
+        </property>
+        <property name="ERROR2_TEXT2"               
+                  value="Перевірте пошту">
+        </property>
+        <property name="ERROR2_TEXT3"               
+                  value=" є неправильне">
+        </property>
+        <property name="ERROR3_TEXT1"               
+                  value="Успіх">
+        </property>
+        <property name="ERROR3_TEXT2"               
+                  value="Сайт експортовано">
+        </property>
+        <property name="ERROR3_TEXT3"               
+                  value="Нажми ОК щоб закрити вікно">
+        </property>
+        <property name="INFO_TEXT1"               
+                  value="Відмінено">
+        </property>
+        <property name="INFO_TEXT2"               
+                  value="Відмінено">
+        </property>
+        <property name="INFO_TEXT3"               
+                  value="Нажми ОК щоб закрити вікно">
+        </property>
+        <property name="INFO2_TEXT1"               
+                  value="УВАГА">
+        </property>
+        <property name="INFO2_TEXT2"               
+                  value="Асистенти будуть видалені!">
+        </property>
+        <property name="INFO2_TEXT3"               
+                  value="Нажми ОК для підтвердження">
+        </property>
+        
+         <!-- Course Details -->  
+        <property name="COURSE_INFO"               
+                   value="Деталі Курсу">
+        </property>
+        <property name="SUBJECT_LBL"               
+                  value="Предмет:">
+        </property>
+        <property name="SEMESTER_LBL"               
+                   value="Семестер:">
+        </property>
+        <property name="NUMBER_LBL"               
+                   value="Номер:">
+        </property>
+        <property name="YEAR_LBL"               
+                   value="Рік:">
+        </property>
+        <property name="TITLE_LBL"               
+                   value="Назва:">
+        </property>
+        <property name="INSTRUCTOR_NAME"               
+                   value="Ім'я Викладача:">
+        </property>
+        <property name="INSTRUCTOR_HOME"               
+                   value="Дім Викладача:">
+        </property>
+        <property name="EXPORT_DIR"               
+                   value="Експорт:">
+        </property>
+        <property name="CHANGE_BTN"               
+                   value="Змінити">
+        </property>
+        <property name="SITE_TEMPLATE"               
+                   value="Шаблон:">
+        </property>
+        <property name="SITE_TEMPLATE_INFO"               
+                   value="Вибрана директорія повинна мати повний шаблон включаючи HTML">
+        </property>
+        <property name="SELECT_TEMPLATE_BTN"               
+                   value="Оберіть Директорію:">
+        </property>
+        <property name="SITE_PAGES"               
+                   value="Сторінки:">
+        </property>
+        <property name="USE_COLUMN"               
+                   value="Використання">
+        </property>
+        <property name="NAVBAR_COLUMN"               
+                   value="Назва">
+        </property>
+        <property name="FILE_COLUMN"               
+                   value="Назва Файла">
+        </property>
+        <property name="SCRIPT_COLUMN"               
+                   value="Скрипт">
+        </property>
+        <property name="PAGE_STYLE"               
+                  value="Стиль">
+        </property>
+        <property name="BANNER_LBL"               
+                  value="Зрбоаження банера:">
+        </property>
+        <property name="LEFT_FOOTER"               
+                  value="Ліве Зображення:">
+        </property>
+        <property name="RIGHT_FOOTER"               
+                  value="Праве Зображення:">
+        </property>
+        <property name="STYLESHEET"               
+                  value="Стиль:">
+        </property>
+        <property name="STYLESHEET_INFO"               
+                  value="Замітка: обраний стиль має знаходитись в work/css ">
+        </property>
+        
+        <!-- RECITATION TAB -->  
+        <property name="RECITATION_LBL"               
+                  value="Реситація">
+        </property>
+        <property name="SECTION_COLUMN"               
+                  value="Секція">
+        </property>
+        <property name="INSTRUCTOR_COLUMN"               
+                  value="Інструктор">
+        </property>
+         <property name="DAYTIME_COLUMN"               
+                  value="День/Час">
+        </property>
+        <property name="LOCATION_COLUMN"               
+                  value="Локація">
+        </property>
+        <property name="TA_COLUMN"               
+                  value="Асистент">
+        </property>
+        <property name="ADD_EDIT_LBL"               
+                  value="Додати/Змінити:">
+        </property>
+        <property name="SECTION_LBL"               
+                  value="Секція:">
+        </property>
+        <property name="INSTRUCTOR_LBL"               
+                  value="Інструктор:">
+        </property>
+        <property name="DAYTIME_LBL"               
+                  value="День/Час:">
+        </property>
+        <property name="LOCATION_LBL"               
+                  value="Локація:">
+        </property>
+        <property name="TA_LBL"               
+                  value="Асистент:">
+        </property>
+        <property name="ADD_UPDATE_BTN"               
+                  value="Додати/Змінити">
+        </property>
+        <property name="CLEAR_BTN"               
+                  value="Стерти">
+        </property>
+        
+        <!-- SCHEDULE TAB -->
+        
+        <property name="SCHEDULE_LBL"               
+                   value="Розклад">
+        </property>
+        <property name="CALENDAR_BOUNDARIES"               
+                   value="Календарні Обмеження">
+        </property>
+        <property name="START_M"               
+                   value="Починаючи Понеділок">
+        </property>
+        <property name="END_F"               
+                   value="Закінчуючи П'ятницю">
+        </property>
+        <property name="SCHEDULE_ITEMS"               
+                   value="Деталі Розкладу">
+        </property>
+        <property name="TYPE_COL"               
+                  value="Тип">
+        </property>
+        <property name="DATE_COL"               
+                  value="Дата">
+        </property>
+        <property name="TITLE_COL"               
+                  value="Назва">
+        </property>
+        <property name="TOPIC_COL"               
+                  value="Топік">
+        </property>
+        <property name="TYPE_LBL"               
+                  value="Тип:">
+        </property>
+        <property name="DATE_LBL"               
+                  value="Дата:">
+        </property>
+        <property name="TIME_LBL"               
+                  value="Час:">
+        </property>
+        <property name="TOPIC_LBL"               
+                  value="Топік:">
+        </property>
+        <property name="LINK_LBL"               
+                  value="Лінк:">
+        </property>
+        <property name="CRITERIA_LBL"               
+                  value="Критерія:">
+        </property>
+        
+        <!-- PROJECT TAB -->
+        
+        <property name="PROJECTS_LBL"               
+                  value="Проекти">
+        </property>
+        <property name="TEAMS_LBL"               
+                  value="Команди">
+        </property>
+        <property name="NAME_COL"               
+                  value="Ім'я">
+        </property>
+        <property name="COLOR_COL"               
+                  value="Колір">
+        </property>
+        <property name="TEXT_COLOR_COL"               
+                  value="Колір Тексту">
+        </property>
+        <property name="LINK_COL"               
+                  value="Лінк">
+        </property>
+        <property name="NAME_LBL"               
+                  value="Ім'я:">
+        </property>
+        <property name="COLOR_LBL"               
+                  value="Колір:">
+        </property>
+        <property name="TEXT_COLOR_LBL"               
+                  value="Колір Тексту:">
+        </property>
+        <property name="STUDENTS_LBL"               
+                  value="Студенти">
+        </property>
+        <property name="FNAME_COL"               
+                   value="Ім'я">
+        </property>
+        <property name="LNAME_COL"               
+                   value="Прізвище">
+        </property>
+        <property name="TEAM_COL"               
+                   value="Команда">
+        </property>
+        <property name="ROLE_COL"               
+                   value="Роль">
+        </property>
+        <property name="FNAME_LBL"               
+                   value="Ім'я:">
+        </property>
+        <property name="LNAME_LBL"               
+                   value="Прізвище:">
+        </property>
+        <property name="TEAM_LBL"               
+                   value="Команда:">
+        </property>
+        <property name="ROLE_LBL"               
+                   value="Роль:">
+        </property>
+        
+        
+         <property name="TA_DATA"               
+                   value="Дані Асистентів">
+        </property>
+        <property name="COURSE_DETAILS"               
+                   value="Деталі курсу">
+        </property>
+        <property name="RECITATION_DATA"               
+                   value="Дані реситації">
+        </property>
+        <property name="SCHEDULE_DATA"               
+                   value="Дані розкладу">
+        </property>
+        <property name="PROJECT_DATA"               
+                   value="Дані Проекту">
+        </property>
+        
+        
+
+
+
+
+
+
+
+
+
+
+        <property name="OFFICE_HOURS_SUBHEADER"         value="Росклад"></property>
+        
+        <!-- WORKSPACE ERROR MESSAGES -->
+        <property name="MISSING_TA_NAME_TITLE"          value="Немає асистента"></property>
+        <property name="MISSING_TA_NAME_MESSAGE"        value="Вкажіть ім'я"></property>
+        <property name="MISSING_TA_EMAIL_TITLE"         value="Немає пошти"></property>
+        <property name="MISSING_TA_EMAIL_MESSAGE"       value="You Вкажіть пошту"></property>
+        <property name="TA_NAME_AND_EMAIL_NOT_UNIQUE_TITLE"     value="Імя чи пошта не оригінальні"></property>
+        <property name="TA_NAME_AND_EMAIL_NOT_UNIQUE_MESSAGE"   value="Вкажіть унікальні дані"></property>
+    </property_list>
+    <property_options_list>
+        <property_options name="OFFICE_HOURS_TABLE_HEADERS">
+            <option>Початок</option>
+            <option>Кінець</option>
+        </property_options>
+        <property_options name="DAYS_OF_WEEK">
+            <option>Понеділок</option>
+            <option>Вівторок</option>
+            <option>Середа</option>
+            <option>Четвер</option>
+            <option>П'ятниця</option>
+        </property_options>
+    </property_options_list>
+</properties>

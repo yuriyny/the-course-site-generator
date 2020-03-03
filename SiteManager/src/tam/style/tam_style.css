@@ -1,0 +1,362 @@
+/* 
+    This style sheet stylizes the controls inside our
+    TA Manager JavaFX application. Note that controls
+    in the UI must have the same class as those below in 
+    order to be rendered using those properties.
+
+    Note that it may seem overwhelming to see so many different
+    style classes, even though our application doesn't have that
+    many controls, but what this allows us to do is easily
+    control and update the style of the entire user interface
+    via a stylesheet without having the change Java code.
+
+    Author:	Richard McKenna
+    Version:	1.0
+*/
+.root{
+    -fx-font-family: "Courier New";
+}
+
+.dialog_pane {
+    -fx-padding:15;
+}
+
+.dialog_heading {
+    -fx-font-size: 24pt;
+    -fx-background-color: bisque;
+    -fx-color:red;
+}
+
+.dialog_prompt {
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+}
+
+.plain_pane {
+
+}
+.ordinary_labels {
+    -fx-font-weight: bold;
+}
+.ta_tab {
+    -fx-background-color: #FFD9A5;
+    -fx-padding: 20;
+    -fx-border-color: #000000;
+}
+.remove_ta {
+    -fx-background-color: #FFD9A5;
+}
+
+.course_info_pane {
+    -fx-border-color: #7A7A7A;
+    -fx-background-color: #DEDEDE;
+    -fx-padding: 20;
+}
+.course_scroll_pane {
+    -fx-background-color: #FFD9A5;
+    
+}
+
+.page_style_pane {
+    -fx-border-color: #7A7A7A;
+    -fx-background-color: #DEDEDE;
+    -fx-padding: 20;
+}
+.site_template_pane {
+    -fx-border-color: #7A7A7A;
+    -fx-background-color: #DEDEDE;
+    -fx-padding: 20;
+}
+
+.course_tab_pane {
+    -fx-border-color: #000000;
+    -fx-padding: 20;
+    -fx-background-color: #FFD9A5;
+}
+/*
+    COURSE TAB
+*/
+
+.course_info_label {
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+
+.site_template_label {
+    -fx-font-weight: bold;
+    -fx-font-size: 14pt;
+}
+
+.directory_label {
+    -fx-font-weight: bold;
+}
+
+.site_pages_label {
+    -fx-font-weight: bold;
+}
+
+.page_style_label {
+    -fx-font-weight: bold;
+    -fx-font-size: 14pt;
+}
+.banner_label {
+    -fx-font-weight: bold;
+    -fx-font-size: 16pt;
+    -fx-text-fill:purple;
+}
+
+
+
+/*
+    recitations tab
+*/
+
+.add_edit_label {
+    -fx-font-weight: bold;
+    -fx-font-size: 14pt;
+}
+.recitation_label {
+    -fx-font-weight: bold;
+    -fx-font-size: 20pt;
+}
+.remove_recitation_button {
+
+}
+.recitation_tab_pane {
+    -fx-padding: 20;
+    -fx-background-color: #FFD9A5;
+    -fx-border-color: #000000;
+}
+.recitation_bottom_pane {
+    -fx-border-color: #7A7A7A;
+    -fx-background-color: #DEDEDE;
+    -fx-padding: 20;
+}
+/*
+    SCHEDULE TAB
+*/
+
+.schedule_label {
+    -fx-font-weight: bold;
+    -fx-font-size: 20pt;
+}
+.schedule_top_pane {
+    -fx-border-color: #7A7A7A;
+    -fx-background-color: #DEDEDE;
+    -fx-padding: 20;
+}
+.schedule_bottom_pane {
+    -fx-border-color: #7A7A7A;
+    -fx-background-color: #DEDEDE;
+    -fx-padding: 20;
+}
+.schedule_tab {
+    -fx-padding: 20;
+    -fx-background-color: #FFD9A5;
+    -fx-border-color: #000000;
+}
+
+/*
+    PROJECTS TAB
+*/
+.project_label {
+    -fx-font-weight: bold;
+    -fx-font-size: 20pt;
+}
+.project_top_pane {
+    -fx-border-color: #7A7A7A;
+    -fx-background-color: #DEDEDE;
+    -fx-padding: 20;
+}
+.project_bottom_pane{
+    -fx-border-color: #7A7A7A;
+    -fx-background-color: #DEDEDE;
+    -fx-padding: 20;
+}
+.project_tab {
+    -fx-padding: 20;
+    -fx-background-color: #FFD9A5;
+}
+
+
+.tab_pane {
+    
+    -fx-tab-min-width:350px;
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #FFF0CE;
+}
+
+.workspace_pane{
+
+}
+.app_pane{
+    -fx-background-color: #FFF0CE;
+}
+
+.bordered_pane {
+    -fx-background-color: #7A7A7A;
+
+
+    -fx-border-width: 2px;
+
+}
+.bordered_pane1 {
+    -fx-background-color: #FFF0CE;
+    -fx-background-radius: 5.0;
+    -fx-padding: 15;
+
+    -fx-border-width: 2px;
+    -fx-border-color: #7A7A7A;
+
+}
+.bordered_pane2 {
+    -fx-background-color: #FFF0CE;
+    -fx-background-radius: 5.0;
+    -fx-padding: 15;
+
+    -fx-border-width: 2px;
+    -fx-border-color: #7A7A7A;
+}
+.header_pane{
+    -fx-background-color:#FFD9A5;
+    
+}
+.ta_split_pane {
+    -fx-background-color:#FFD9A5;
+    
+    
+}
+
+.header_label {
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+    -fx-padding: 5 10 5 10;
+}
+
+.start_label {
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-font-family: "Times New Roman";
+
+}
+.end_label {
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-font-family: "Times New Roman";
+}
+
+.ta_table{
+    -fx-font-size:12pt;
+    
+
+}
+.ta_right_pane {
+    -fx-background-color:#FFD9A5; 
+}
+.ta_scroll_pane {
+    -fx-background-color:#FFD9A5; 
+    
+}
+
+.table-view .column-header.ta_table_column_header .label {
+    -fx-text-fill:black;
+    -fx-background-color:#bfbfbf;
+}
+
+.add_ta_pane{
+    -fx-padding: 5 10 5 10;
+}
+
+.add_ta_text_field{
+    -fx-font-size: 14pt;
+}
+
+.add_ta_button{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;    
+}
+.update_ta_button{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;    
+}
+.clear_ta_button{
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;    
+}
+
+.office_hours_grid{
+
+}
+.ok_button {
+    -fx-font-weight: bold;
+    -fx-font-family: "Times New Roman";
+}
+.office_hours_grid_time_column_header_pane{
+    -fx-background-color:#bfbfbf;
+    -fx-border: 1px; 
+    -fx-border-color:black;
+}
+
+.office_hours_grid_time_column_header_label{
+    -fx-text-fill:black;
+    -fx-font-size:12pt;   
+    -fx-font-weight:bold;
+    -fx-padding: 10 20 10 20;
+}
+
+.office_hours_grid_day_column_header_pane{
+    -fx-background-color:#bfbfbf;
+    -fx-border: 1px;
+    -fx-border-color: #bfbfbf;
+    -fx-border-color:black;
+}
+
+.office_hours_grid_day_column_header_label{
+    -fx-text-fill:black;
+    -fx-font-size:12pt;   
+    -fx-font-weight:bold;
+    -fx-padding: 10 20 10 20;
+}
+
+.office_hours_grid_time_cell_pane{
+    -fx-background-color:#8E7400; 
+    -fx-border: 1px;   
+    -fx-border-color:darkgray;
+    -fx-border-style:dashed;
+}
+
+.office_hours_grid_time_cell_label{
+    -fx-font-size:12pt;
+    -fx-text-fill:white;
+}
+
+.office_hours_grid_ta_cell_pane{
+    -fx-background-color:#CEA800;
+    -fx-border: 1px;
+    -fx-border-color: black;
+}
+
+.office_hours_grid_ta_cell_label{
+    -fx-font-weight:bold;
+    -fx-font-size:12pt;  
+    -fx-padding: 5 10 5 10;
+}
+
+.highlighted_grid_cell {
+    -fx-border-color: #ffff00;
+    -fx-border: 5px;
+}
+
+.highlighted_grid_row_or_column {
+    -fx-border-color: #aaaa00;
+    -fx-border: 5px;
+    -fx-border-style:solid;
+}

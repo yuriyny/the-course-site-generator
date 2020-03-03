@@ -1,0 +1,150 @@
+package tam;
+
+/**
+ * This enum provides a list of all the user interface text that needs to be
+ * loaded from the XML properties file. By simply changing the XML file we could
+ * initialize this application such that all UI controls are provided in another
+ * language.
+ *
+ * @author Richard McKenna
+ * @version 1.0
+ */
+public enum CourseGeneratorProp {
+    // FOR SIMPLE OK/CANCEL DIALOG BOXES
+    OK_PROMPT,
+    CANCEL_PROMPT,
+    // THESE ARE FOR TEXT PARTICULAR TO THE APP'S WORKSPACE CONTROLS
+    TAS_HEADER_TEXT,
+    START_LABEL_TEXT,
+    END_LABEL_TEXT,
+    NAME_COLUMN_TEXT,
+    EMAIL_COLUMN_TEXT,
+    NAME_PROMPT_TEXT,
+    EMAIL_PROMPT_TEXT,
+    ADD_BUTTON_TEXT,
+    UPDATE_BUTTON_TEXT,
+    CLEAR_BUTTON_TEXT,
+    OK_BUTTON_TEXT,
+    OFFICE_HOURS_SUBHEADER,
+    OFFICE_HOURS_TABLE_HEADERS,
+    DAYS_OF_WEEK,
+    // THESE ARE FOR ERROR MESSAGES PARTICULAR TO THE APP
+    MISSING_TA_NAME_TITLE,
+    MISSING_TA_NAME_MESSAGE,
+    MISSING_TA_EMAIL_TITLE,
+    MISSING_TA_EMAIL_MESSAGE,
+    TA_NAME_AND_EMAIL_NOT_UNIQUE_TITLE,
+    TA_NAME_AND_EMAIL_NOT_UNIQUE_MESSAGE,
+    ERROR_TEXT1,
+    ERROR_TEXT2,
+    ERROR_TEXT3,
+    ERROR2_TEXT1,
+    ERROR2_TEXT2,
+    ERROR2_TEXT3,
+    ERROR3_TEXT1,
+    ERROR3_TEXT2,
+    ERROR3_TEXT3,
+    INFO_TEXT1,
+    INFO_TEXT2,
+    INFO_TEXT3,
+    INFO2_TEXT1,
+    INFO2_TEXT2,
+    INFO2_TEXT3,
+    UNDERGRAD_COLUMN_TEXT,
+    //course details
+    
+    COURSE_INFO,
+    SUBJECT_LBL,
+    SEMESTER_LBL,
+    NUMBER_LBL,
+    YEAR_LBL,
+    TITLE_LBL,
+    INSTRUCTOR_NAME,
+    INSTRUCTOR_HOME,
+    EXPORT_DIR,
+    CHANGE_BTN,
+    SITE_TEMPLATE,
+    SITE_TEMPLATE_INFO,
+    SELECT_TEMPLATE_BTN,
+    SITE_PAGES,
+    USE_COLUMN,
+    NAVBAR_COLUMN,
+    FILE_COLUMN,
+    SCRIPT_COLUMN,
+    PAGE_STYLE,
+    BANNER_LBL,
+    LEFT_FOOTER,
+    RIGHT_FOOTER,
+    STYLESHEET,
+    STYLESHEET_INFO,
+    
+    
+    // RECITATION TAB
+    
+    RECITATION_LBL,
+    SECTION_COLUMN,
+    INSTRUCTOR_COLUMN,
+    DAYTIME_COLUMN,
+    LOCATION_COLUMN,
+    TA_COLUMN,
+    ADD_EDIT_LBL,
+    SECTION_LBL,
+    INSTRUCTOR_LBL,
+    DAYTIME_LBL,
+    LOCATION_LBL,
+    TA_LBL,
+    ADD_UPDATE_BTN,
+    CLEAR_BTN,
+    
+    // SCHEDULE TAB
+    SCHEDULE_LBL,
+    CALENDAR_BOUNDARIES,
+    START_M,
+    END_F,
+    SCHEDULE_ITEMS,
+    TYPE_COL,
+    DATE_COL,
+    TITLE_COL,
+    TOPIC_COL,
+    TYPE_LBL,
+    DATE_LBL,
+    TIME_LBL,
+    TOPIC_LBL,
+    LINK_LBL,
+    CRITERIA_LBL,
+    
+    // PROJECTTAB
+    
+    PROJECTS_LBL,
+    TEAMS_LBL,
+    NAME_COL,
+    COLOR_COL,
+    TEXT_COLOR_COL,
+    LINK_COL,
+    NAME_LBL,
+    COLOR_LBL,
+    TEXT_COLOR_LBL,
+    STUDENTS_LBL,
+    FNAME_COL,
+    LNAME_COL,
+    TEAM_COL,
+    ROLE_COL,
+    FNAME_LBL,
+    LNAME_LBL,
+    TEAM_LBL,
+    ROLE_LBL,
+    
+    // main workspace
+    
+    TA_DATA,
+    COURSE_DETAILS,
+    RECITATION_DATA,
+    SCHEDULE_DATA,
+    PROJECT_DATA
+    
+    
+    
+    
+    
+    
+}

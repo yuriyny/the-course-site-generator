@@ -1,0 +1,223 @@
+
+{
+    "startHour":"9",
+    "endHour":"20",
+    "sday":"10",
+    "smonth":"11",
+    "syear":"2016",
+    "eday":"11",
+    "emonth":"06",
+    "eyear":"2018",
+    "course_info":[
+        {
+            "subject":"CSE",
+            "semester":"Spring",
+            "number":"Spring",
+            "year":"2017",
+            "title":"Software Engineering",
+            "insName":"Richard McKenna",
+            "insHome":"216 New Computer Science Building"
+        }
+    ],
+    "site_template":[
+        {
+            "use":true,
+            "title":"Home",
+            "name":"index.html",
+            "script":"HomeBuilder.js"
+        },
+        {
+            "use":true,
+            "title":"Syllabus",
+            "name":"syllabus.html",
+            "script":"SyllabusBuilder.js"
+        },
+        {
+            "use":true,
+            "title":"Schedule",
+            "name":"schedule.html",
+            "script":"ScheduleBuilder.js"
+        },
+        {
+            "use":true,
+            "title":"HWs",
+            "name":"hws.html",
+            "script":"HWsBuilder.js"
+        },
+        {
+            "use":false,
+            "title":"Projects",
+            "name":"projects.html",
+            "script":"ProjectsBuilder.js"
+        }
+    ],
+    "undergrad_tas":[
+        {
+            "name":"Aarin Chase",
+            "email":"aarin.chase@stonybrook.edu",
+            "undergrad":true
+        },
+        {
+            "name":"Ali Afzal",
+            "email":"ali.afzal@stonybrook.edu",
+            "undergrad":true
+        },
+        {
+            "name":"Anthony Roy",
+            "email":"anthony.roy@stonybrook.edu",
+            "undergrad":true
+        },
+        {
+            "name":"Bryan Robicheau",
+            "email":"bryan.robicheau@stonybrook.edu",
+            "undergrad":true
+        },
+        {
+            "name":"Calvin Cheng",
+            "email":"calvin.cheng@stonybrook.edu",
+            "undergrad":true
+        },
+        {
+            "name":"Chaeyoung Lee",
+            "email":"chaeyoung.lee@stonybrook.edu",
+            "undergrad":true
+        },
+        {
+            "name":"Jacob Evans",
+            "email":"jacob.evans@stonybrook.edu",
+            "undergrad":true
+        }
+    ],
+    "officeHours":[
+        {
+            "day":"MONDAY",
+            "time":"9_30am",
+            "name":"Wonje Kang"
+        },
+        {
+            "day":"TUESDAY",
+            "time":"10_30am",
+            "name":"Wonyong Jeong"
+        },
+        {
+            "day":"THURSDAY",
+            "time":"9_30am",
+            "name":"Jamie Kunzmann"
+        },
+        {
+            "day":"Monday",
+            "time":"12_30pm",
+            "name":"Serge Crane"
+        },
+        {
+            "day":"Thursday",
+            "time":"9_30am",
+            "name":"Calvin Cheng"
+        },
+        {
+            "day":"Friday",
+            "time":"9_30am",
+            "name":"Wonyong Jeong"
+        },
+        {
+            "day":"Monday",
+            "time":"5_30pm",
+            "name":"Wonje Kang"
+        },
+        {
+            "day":"Friday",
+            "time":"4_30pm",
+            "name":"Calvin Cheng"
+        }
+    ],
+    "recitations":[
+        {
+            "section":"R02",
+            "recitation_instructor":"McKenna",
+            "day_time":"Wed 3:30PM-4:23PM",
+            "location":" Old CS 2114",
+            "ta_1":"Jane Doe",
+            "ta_2":"Joe Shmo"
+        },
+        {
+            "section":"R05",
+            "recitation_instructor":"Banerjee",
+            "day_time":"Tue 5:30PM-6:23PM",
+            "location":" Old CS 2114",
+            "ta_1":"",
+            "ta_2":""
+        }
+    ],
+    "schedule":[
+        {
+            "schedule_type":"Holiday",
+            "schedule_date":"2/9/2017",
+            "schedule_time":"",
+            "schedule_title":"SNOW DAY",
+            "schedule_topic":"",
+            "schedule_link":"",
+            "schedule_criteria":""
+        },
+        {
+            "schedule_type":"Lecture",
+            "schedule_date":"2/14/2017",
+            "schedule_time":"",
+            "schedule_title":"Lecture 3",
+            "schedule_topic":"Event Programming",
+            "schedule_link":"",
+            "schedule_criteria":""
+        },
+        {
+            "schedule_type":"Holiday",
+            "schedule_date":"3/13/2017",
+            "schedule_time":"",
+            "schedule_title":"Spring Break",
+            "schedule_topic":"",
+            "schedule_link":"",
+            "schedule_criteria":""
+        },
+        {
+            "schedule_type":"HW",
+            "schedule_date":"3/27/2017",
+            "schedule_time":"",
+            "schedule_title":"HW3",
+            "schedule_topic":"UML",
+            "schedule_link":"",
+            "schedule_criteria":""
+        }
+    ],
+    "teams":[
+        {
+            "name":"Atomic Comics",
+            "color":"552211",
+            "text_color":"fff fff",
+            "team_link":"http://atomicomic.com"
+        },
+        {
+            "name":"C4 Comics",
+            "color":"235399",
+            "text_color":"fff fff",
+            "team_link":"http://c4-comics.appspot.com"
+        }
+    ],
+    "students":[
+        {
+            "first_name":"Beau",
+            "last_name":"Brummell",
+            "team":"Atomic Comics",
+            "role":"Lead Designer"
+        },
+        {
+            "first_name":"Jane",
+            "last_name":"Doe",
+            "team":"C4 Comics",
+            "role":"Lead Programmer"
+        },
+        {
+            "first_name":"Noonian",
+            "last_name":"Soong",
+            "team":"Atomic Comics",
+            "role":"Data Desighner"
+        }
+    ]
+}
